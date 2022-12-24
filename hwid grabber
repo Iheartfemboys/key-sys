@@ -1,0 +1,11 @@
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+
+rconsoleprint("@@WHITE@@")
+rconsoleprint("<-----------------------------------------------> \n")
+rconsoleprint("                   HWID GRABBER                   \n")
+rconsoleprint("<-----------------------------------------------> \n\n")
+rconsoleprint("Your HWID:\n")
+rconsoleprint("@@RED@@")
+rconsoleprint("\n")
+rconsoleprint(HWID)
+setclipboard(HWID)
